@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+This is practice app of todo list in next js with frontend and backend routes 
+
 ## Getting Started
 
 First, run the development server:
