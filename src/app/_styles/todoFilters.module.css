@@ -1,0 +1,33 @@
+.flex{
+    display: flex ;
+}
+.flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filterComponentContainer{
+    align-items: center ;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.statusText {
+    font-size: 14px ;
+}
+.statusContainer{
+    gap : 8px ;
+}
+
+.status{
+     color : #fff ;
+     padding : 5px ;
+     font-size: 17px ;
+     background-color: transparent;
+     border-radius: 5px ;
+     cursor: pointer;
+}
+
+.activeStatus{
+     background-color: #d7d5d5 ;
+     color: #000 ;
+}

@@ -1,0 +1,67 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Search Input */
+.searchInput {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #1e1e1e;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.searchInput.collapsed {
+  width: 0;
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Add Section */
+.addWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+}
+
+/* + Icon */
+.plusIcon {
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.plusIcon.rotate {
+  transform: rotate(45deg);
+}
+
+/* Add Input */
+.addInput {
+  width: 0;
+  opacity: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: #1e1e1e;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.addInput.expanded {
+  width: 180px;
+  opacity: 1;
+  padding: 8px 12px;
+}
