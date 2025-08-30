@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit"; 
 import themeSlice from "./slices/ThemeSlice";
+import todoSlice from "./slices/TodoSlice" ;
 
 const store = configureStore({
     reducer : {
-        theme : themeSlice
+        theme : themeSlice ,
+        todos : todoSlice 
     }
 })
 
