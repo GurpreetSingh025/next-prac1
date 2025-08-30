@@ -1,0 +1,44 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Learn Next.js 16",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "title": "Do random stuff",
+      "status": "completed"
+    },
+    {
+      "id": 3,
+      "title": "Read a book",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "title": "Go for a walk",
+      "status": "completed"
+    },
+    {
+      "id": 5,
+      "title": "Practice coding",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "title": "Call a friend",
+      "status": "completed"
+    },
+    {
+      "id": 7,
+      "title": "Write a blog post",
+      "status": "active"
+    },
+    {
+      "id": 8,
+      "title": "Clean the desk",
+      "status": "completed"
+    }
+  ]
+}
